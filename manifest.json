@@ -1,14 +1,37 @@
 {
-  "android": {},
-  "appID": "e2ce307d0bd347118b5934c775ad8b41",
-  "dependencies": {
-    "devkit-core": "git@github.com:gameclosure/devkit-scene.git#ee462077c22ee82c6edf1d37c16348b813f0e4be",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#f4314783905957c5cccaf42c98346a152e96c6eb"
+  "android": {
+    "icons": {
+      "120": "resources/icons/jsio-icon-120.png",
+      "144": "resources/icons/jsio-icon-144.png",
+      "180": "resources/icons/jsio-icon-180.png",
+      "60": "resources/icons/jsio-icon-60.png",
+      "72": "resources/icons/jsio-icon-72.png",
+      "76": "resources/icons/jsio-icon-76.png"
+    }
   },
-  "ios": {},
-  "shortName": "templatescene",
+  "appID": "476cec6ad43e4f1bb793cdf018624495",
+  "dependencies": {
+    "community-art": "git@github.com:weebygames/community-art.git#c80f674a6d253dd0a563bb046b06c438b756f007",
+    "devkit-core": "git@github.com:gameclosure/devkit-core.git#jsio-staging",
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#af9e4210a538d8f447984fa411314451a7e83a3c"
+  },
+  "ios": {
+    "icons": {
+      "120": "resources/icons/jsio-icon-120.png",
+      "144": "resources/icons/jsio-icon-144.png",
+      "180": "resources/icons/jsio-icon-180.png",
+      "60": "resources/icons/jsio-icon-60.png",
+      "72": "resources/icons/jsio-icon-72.png",
+      "76": "resources/icons/jsio-icon-76.png"
+    }
+  },
+  "shortName": "shootergame",
+  "splash": {
+    "autoHide": true,
+    "universal": "resources/splash/jsio-splash.png"
+  },
   "studio": {
-    "domain": "studio.example.com",
+    "domain": "nightshineequestria.js.io",
     "name": "Your Studio Name",
     "stagingDomain": "staging.example.com"
   },
@@ -16,5 +39,5 @@
     "portrait",
     "landscape"
   ],
-  "title": "templatescene"
+  "title": "Dangan jigoku"
 }
